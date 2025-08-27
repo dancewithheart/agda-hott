@@ -12,7 +12,7 @@ jobs:
 
     steps:
       # Checks-out into $GITHUB_WORKSPACE
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - uses: wenkokke/setup-agda@v2
 
