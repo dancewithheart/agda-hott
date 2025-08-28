@@ -45,5 +45,5 @@ jobs:
       - run: agda Logic/Hurken-paradox.agda
         working-directory: src
 
-      - uses: cachix/install-nix-action@v30
+      - uses: cachix/install-nix-action@v31
       - run: nix develop
